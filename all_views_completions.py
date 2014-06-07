@@ -1,3 +1,4 @@
+# coding=utf8
 import sublime_plugin
 import sublime
 
@@ -17,14 +18,11 @@ class AllAutocomplete(sublime_plugin.EventListener):
 
         # all views
         [v for window in sublime.windows() for v in window.views() if (v.buffer_id() != view.buffer_id() and time() - start_time < 0.040 and words.update(v.extract_completions(prefix)))]
+
         if debug and words:
             print(words)
+            print(str(time() - start_time) + '\twords: '+str(len(words)))
 
-        # normalize
-        words = [(w, w) for w in words]
-
-        if debug:
-            print(str(time() - start_time).ljust(20, '0')[:10] + '\twords: '+str(len(words)))
-        return words
+        return [(w, ) for w in words]
 
 AllAutocomplete.words = {} # for future caching.. of closed views
