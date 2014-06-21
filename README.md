@@ -14,8 +14,8 @@ LICENSE
 DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 Version 2, December 2004
 
-Copyright (C) 2013 Adrian Lienhard <adrian.lienhard@gmail.com>
-Copyright (C) 2014 Tito Bouzout <tito.bouzout@gmail.com>
+- Copyright (C) 2013 Adrian Lienhard <adrian.lienhard@gmail.com>
+- Copyright (C) 2014 Tito Bouzout <tito.bouzout@gmail.com>
 
 Everyone is permitted to copy and distribute verbatim or modified
 copies of this license document, and changing it is allowed as long
