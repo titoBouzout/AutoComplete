@@ -1,9 +1,7 @@
-All Autocomplete Sublime Text
+AutoComplete Sublime Text
 ===========================================================
 
-Extends the default autocomplete to find matches in all open files.
-
-By default Sublime only considers words found in the current file.
+Extends the default autocomplete functionality to find matches across all open files. Provides optional syntax/file blacklisting.
 
 You may need to copy the following line to your settings file
 

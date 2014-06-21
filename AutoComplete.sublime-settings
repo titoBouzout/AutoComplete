@@ -1,0 +1,6 @@
+{
+	"excluded_files_folders_syntaxes_scopes":[
+		"JavaScript",
+		".js"
+	]
+}
